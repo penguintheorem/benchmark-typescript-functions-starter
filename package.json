@@ -1,0 +1,22 @@
+{
+  "name": "benchmark-typescript-functions-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/benchmark.js",
+    "format": "prettier --write src/**/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/benchmark": "^2.1.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.4"
+  }
+}
